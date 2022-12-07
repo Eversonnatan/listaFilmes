@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="250dp"
+    android:background="#E8BDE6BA"
     android:orientation="vertical">
 
     <LinearLayout
@@ -9,17 +10,17 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/idimgFilme"
-        android:layout_width="100dp"
-        android:layout_height="230dp"
-        android:layout_margin="10dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/stars"
+        <ImageView
+            android:id="@+id/idimgFilme"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/stars"
 
-        />
+            />
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -31,19 +32,22 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Starwars"
-            android:textColor="#283593"
+            android:textColor="#000"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-condensed-medium"/>
 
         <TextView
+            android:background="#99ECB1"
             android:id="@+id/idDescricaoFilmes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10sp"
-            android:text="Buster Moon e seu elenco de estrelas se preparam para lançar sua mais deslumbrante extravagância de palco na brilhante capital mundial do entretenimento."
+            android:text="A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia"
             android:textColor="#000" />
 
         <LinearLayout
+            android:background="#CD79C7DA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
